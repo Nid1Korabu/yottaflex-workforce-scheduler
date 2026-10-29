@@ -106,11 +106,9 @@ The documentation and prompt-history files should be included as they are comple
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_PUBLIC_GITHUB_REPOSITORY_URL>
-cd YottaFlexWorkforce
+git clone https://github.com/Nid1Korabu/yottaflex-workforce-scheduler.git
+cd yottaflex-workforce-scheduler
 ```
-
-Replace the placeholder with your actual public repository URL.
 
 ### 2. Create and activate a virtual environment
 
