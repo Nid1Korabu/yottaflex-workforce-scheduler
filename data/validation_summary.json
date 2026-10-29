@@ -1,0 +1,292 @@
+{
+  "checks_passed": 52,
+  "checks_failed": 0,
+  "total_checks": 52,
+  "overall_pass": true,
+  "record_counts": {
+    "teams": 100,
+    "employees": 2000,
+    "skills": 4,
+    "employee_skills": 6104,
+    "shift_templates": 3,
+    "shift_assignments": 81003,
+    "leave_requests": 5001,
+    "holiday_calendar": 4,
+    "attendance_events": 162006,
+    "coverage_requirements": 300,
+    "swap_requests": 200,
+    "swap_events": 333,
+    "labelled_anomalies": 5
+  },
+  "detected_issues": {
+    "overlapping_assignment_pairs": 1,
+    "approved_leave_overlap_pairs": 1,
+    "missing_skill_assignments": 1,
+    "employee_weeks_over_cap": 1,
+    "staffing_shortages": 2,
+    "skill_shortages": 3,
+    "attendance_errors": 0
+  },
+  "checks": [
+    {
+      "check": "Required table columns",
+      "passed": true,
+      "details": "All required columns exist"
+    },
+    {
+      "check": "Unique Team IDs",
+      "passed": true,
+      "details": "100 unique records; 0 duplicates"
+    },
+    {
+      "check": "Unique Employee IDs",
+      "passed": true,
+      "details": "2000 unique records; 0 duplicates"
+    },
+    {
+      "check": "Unique Skill IDs",
+      "passed": true,
+      "details": "4 unique records; 0 duplicates"
+    },
+    {
+      "check": "Unique Shift template IDs",
+      "passed": true,
+      "details": "3 unique records; 0 duplicates"
+    },
+    {
+      "check": "Unique Assignment IDs",
+      "passed": true,
+      "details": "81003 unique records; 0 duplicates"
+    },
+    {
+      "check": "Unique Leave IDs",
+      "passed": true,
+      "details": "5001 unique records; 0 duplicates"
+    },
+    {
+      "check": "Unique Holiday IDs",
+      "passed": true,
+      "details": "4 unique records; 0 duplicates"
+    },
+    {
+      "check": "Unique Attendance IDs",
+      "passed": true,
+      "details": "162006 unique records; 0 duplicates"
+    },
+    {
+      "check": "Unique Coverage IDs",
+      "passed": true,
+      "details": "300 unique records; 0 duplicates"
+    },
+    {
+      "check": "Unique Swap IDs",
+      "passed": true,
+      "details": "200 unique records; 0 duplicates"
+    },
+    {
+      "check": "Unique Swap event IDs",
+      "passed": true,
+      "details": "333 unique records; 0 duplicates"
+    },
+    {
+      "check": "Unique Anomaly IDs",
+      "passed": true,
+      "details": "5 unique records; 0 duplicates"
+    },
+    {
+      "check": "Unique employee-skill pairs",
+      "passed": true,
+      "details": "0 duplicate pairs"
+    },
+    {
+      "check": "Employee team references",
+      "passed": true,
+      "details": "All references are valid"
+    },
+    {
+      "check": "Assignment employee references",
+      "passed": true,
+      "details": "All references are valid"
+    },
+    {
+      "check": "Assignment team references",
+      "passed": true,
+      "details": "All references are valid"
+    },
+    {
+      "check": "Assignment template references",
+      "passed": true,
+      "details": "All references are valid"
+    },
+    {
+      "check": "Employee-skill employee references",
+      "passed": true,
+      "details": "All references are valid"
+    },
+    {
+      "check": "Employee-skill skill references",
+      "passed": true,
+      "details": "All references are valid"
+    },
+    {
+      "check": "Leave employee references",
+      "passed": true,
+      "details": "All references are valid"
+    },
+    {
+      "check": "Attendance employee references",
+      "passed": true,
+      "details": "All references are valid"
+    },
+    {
+      "check": "Attendance assignment references",
+      "passed": true,
+      "details": "All references are valid"
+    },
+    {
+      "check": "Coverage team references",
+      "passed": true,
+      "details": "All references are valid"
+    },
+    {
+      "check": "Coverage skill references",
+      "passed": true,
+      "details": "All references are valid"
+    },
+    {
+      "check": "Swap requester references",
+      "passed": true,
+      "details": "All references are valid"
+    },
+    {
+      "check": "Swap target references",
+      "passed": true,
+      "details": "All references are valid"
+    },
+    {
+      "check": "Swap event references",
+      "passed": true,
+      "details": "All references are valid"
+    },
+    {
+      "check": "Employee and assignment team consistency",
+      "passed": true,
+      "details": "0 mismatched assignments"
+    },
+    {
+      "check": "Valid assignment dates and timestamps",
+      "passed": true,
+      "details": "0 invalid records"
+    },
+    {
+      "check": "Assignment dates match shift start",
+      "passed": true,
+      "details": "0 mismatches"
+    },
+    {
+      "check": "Shift duration matches timestamps",
+      "passed": true,
+      "details": "0 mismatches"
+    },
+    {
+      "check": "Valid leave date ranges",
+      "passed": true,
+      "details": "0 invalid ranges"
+    },
+    {
+      "check": "Valid holiday dates",
+      "passed": true,
+      "details": "0 invalid dates"
+    },
+    {
+      "check": "Assignment and template consistency",
+      "passed": true,
+      "details": "0 mismatches"
+    },
+    {
+      "check": "Overlapping assignments detected",
+      "passed": true,
+      "details": "1 actual overlapping assignment pairs"
+    },
+    {
+      "check": "Labelled double-booking verified",
+      "passed": true,
+      "details": "The labelled assignment overlaps its related assignment"
+    },
+    {
+      "check": "Approved leave overlaps detected",
+      "passed": true,
+      "details": "1 leave/assignment pairs"
+    },
+    {
+      "check": "Labelled leave overlap verified",
+      "passed": true,
+      "details": "The labelled approved leave overlaps its assignment"
+    },
+    {
+      "check": "Labelled missing-skill anomaly verified",
+      "passed": true,
+      "details": "The assigned employee lacks the specific required skill"
+    },
+    {
+      "check": "Coverage analysis generated",
+      "passed": true,
+      "details": "27000 team/shift/date combinations; 2 staffing gaps; 3 skill gaps"
+    },
+    {
+      "check": "Weekly overtime detected",
+      "passed": true,
+      "details": "1 employee-week records exceed their caps"
+    },
+    {
+      "check": "Labelled overtime anomaly verified",
+      "passed": true,
+      "details": "The labelled employee exceeds their weekly hours cap"
+    },
+    {
+      "check": "Valid attendance event types",
+      "passed": true,
+      "details": "0 invalid event types"
+    },
+    {
+      "check": "Attendance reconciles with assignments",
+      "passed": true,
+      "details": "Every assignment has matching clock-in and clock-out events"
+    },
+    {
+      "check": "Valid leave statuses",
+      "passed": true,
+      "details": "0 invalid statuses"
+    },
+    {
+      "check": "Valid swap statuses",
+      "passed": true,
+      "details": "0 invalid statuses"
+    },
+    {
+      "check": "Valid assignment statuses",
+      "passed": true,
+      "details": "0 invalid statuses"
+    },
+    {
+      "check": "Valid swap history event types",
+      "passed": true,
+      "details": "0 invalid event types"
+    },
+    {
+      "check": "Swap lifecycle history",
+      "passed": true,
+      "details": "Required lifecycle events are present"
+    },
+    {
+      "check": "Labelled unapproved swap verified",
+      "passed": true,
+      "details": "Swap was applied without manager approval"
+    },
+    {
+      "check": "Five labelled anomaly categories",
+      "passed": true,
+      "details": "5 labels across 5 categories"
+    }
+  ]
+}

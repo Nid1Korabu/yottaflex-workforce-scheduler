@@ -1,0 +1,5 @@
+holiday_id,holiday_date,holiday_name,region,source_type
+HOL-001,2026-11-07,Synthetic Test Holiday 1,ALL,SYNTHETIC_TEST_DATA
+HOL-002,2026-11-28,Synthetic Test Holiday 2,ALL,SYNTHETIC_TEST_DATA
+HOL-003,2026-12-19,Synthetic Test Holiday 3,ALL,SYNTHETIC_TEST_DATA
+HOL-004,2027-01-09,Synthetic Test Holiday 4,ALL,SYNTHETIC_TEST_DATA

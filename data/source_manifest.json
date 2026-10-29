@@ -1,0 +1,21 @@
+{
+  "source_type": "Synthetic data generated locally",
+  "seed": 20261022,
+  "generator": "src/generate_data.py",
+  "tables": {
+    "teams.csv": "Synthetic records",
+    "employees.csv": "Synthetic records",
+    "skills.csv": "Synthetic records",
+    "employee_skills.csv": "Synthetic records",
+    "shift_templates.csv": "Synthetic records",
+    "shift_assignments.csv": "Synthetic records",
+    "leave_requests.csv": "Synthetic records",
+    "holiday_calendar.csv": "Synthetic records",
+    "attendance_events.csv": "Synthetic records",
+    "coverage_requirements.csv": "Synthetic records",
+    "swap_requests.csv": "Synthetic records",
+    "swap_events.csv": "Synthetic records"
+  },
+  "labels_file": "anomaly_ground_truth.csv",
+  "labels_are_separate_from_input_tables": true
+}

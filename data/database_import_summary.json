@@ -1,0 +1,20 @@
+{
+  "database": "D:\\OneDrive\\Desktop\\YottaFlexWorkforce\\data\\workforce.db",
+  "tables": {
+    "teams": 100,
+    "skills": 4,
+    "employees": 2000,
+    "shift_templates": 3,
+    "employee_skills": 6104,
+    "shift_assignments": 81003,
+    "leave_requests": 5001,
+    "holiday_calendar": 4,
+    "coverage_requirements": 300,
+    "attendance_events": 162006,
+    "swap_requests": 200,
+    "swap_events": 333
+  },
+  "total_rows": 257058,
+  "foreign_key_errors": 0,
+  "ground_truth_included": false
+}

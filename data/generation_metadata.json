@@ -1,0 +1,13 @@
+{
+  "seed": 20261022,
+  "mode": "full",
+  "start_date": "2026-11-01",
+  "number_of_days": 90,
+  "employee_count_requested": 2000,
+  "team_count_requested": 100,
+  "leave_request_count_requested": 5000,
+  "required_employees_per_shift": 3,
+  "anomalies_injected": 5,
+  "data_type": "Synthetic test data",
+  "note": "Holiday entries are synthetic examples, not an official public holiday feed."
+}

@@ -1,0 +1,4 @@
+shift_template_id,shift_name,start_time,duration_hours
+TPL-M,Morning,06:00,8
+TPL-E,Evening,14:00,8
+TPL-N,Night,22:00,8
